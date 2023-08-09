@@ -1,11 +1,12 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="eastwood"
+#ZSH_THEME="eastwood"
 #ZSH_THEME="simple"
 #ZSH_THEME="minimal"
 #ZSH_THEME="apple"
 #ZSH_THEME="gnzh"
 #ZSH_THEME="miloshadzic"
+ZSH_THEME="avit"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting autojump)
 
 source $ZSH/oh-my-zsh.sh
