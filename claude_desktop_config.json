@@ -1,0 +1,37 @@
+{
+    "mcpServers": {
+        "brave-search": {
+            "command": "envchain",
+            "args": [
+                "claude_desktop",
+                "docker",
+                "run",
+                "-i",
+                "--rm",
+                "-e",
+                "BRAVE_API_KEY",
+                "mcp/brave-search"
+            ],
+            "env": {}
+        },
+        "sequentialthinking": {
+            "command": "docker",
+            "args": [
+                "run",
+                "--rm",
+                "-i",
+                "mcp/sequentialthinking"
+            ]
+        },
+        "firecrawl-mcp": {
+            "command": "envchain",
+            "args": [
+                "claude_desktop",
+                "npx",
+                "-y",
+                "firecrawl-mcp"
+            ],
+            "env": {}
+        }
+    }
+}
